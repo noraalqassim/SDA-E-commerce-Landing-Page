@@ -1,6 +1,6 @@
 # Assignment: E-commerce Landing Page - HTML/CSS/Animation
 
-### Level 1: Basic Requirements
+### Level 1: Basic Requirements 
 
 - Create a basic E-commerce landing page with HTML which should include:
 - A header section with a logo and navigation menu.

@@ -3,65 +3,169 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Gemstone Store</title>
+    <link rel="icon" href="\images\LogoTap.png" />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--icone-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
-    <header class="header">
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Gemstones</a></li>
-        <li><a href="#">Customer Reviews</a></li>
-        <li><a href="#">Newsletter subscription</a></li>
-      </ul>
+    <!--NavBar-->
+    <header>
+      <input type="checkbox" name="#" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+
+      <a href="#" class="logo">Gemstone Store</a>
+
+      <nav class="navbar">
+        <a href="#About">About Us</a>
+        <a href="#Product">Gemstones</a>
+        <a href="#Reviewa">Customer Reviews</a>
+        <a href="#newsletter">Newsletter subscription</a>
+      </nav>
+
+      <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
     </header>
 
-    <section class="hero">
-      <h1>Discover the Magic of Gemstones</h1>
-      <h3>
-        Embark on a journey through the enchanting world of gemstones, where
-        each stone tells a unique story of elegance and mystique. Explore our
-        collection of rare gems, handpicked for their beauty and rarity,
-        awaiting to adorn you with their timeless glamour.
-      </h3>
-      <a href="#">Get one now!</a>
+    <!--About Us-->
+    <section id="AboutUs">
+      <div class="main-bannar-box">
+        <!-- <img src="\images\G.png" alt="Gemstone" /> -->
+        <dive class="main-bannar-text">
+          <h1>Discover the Magic of Gemstones</h1>
+          <p>
+            Embark on a journey through the enchanting world of gemstones, where
+            each stone tells a unique story of elegance and mystique.
+          </p>
+          <p>
+            Explore our collection of rare gems, handpicked for their beauty and
+            rarity, awaiting to adorn you with their timeless glamour.
+          </p>
+          <a href="#">Get one now!</a>
+        </dive>
+      </div>
     </section>
 
-    <section class="product">
-      <h2>Gemstone</h2>
-      <div>
-        <img
-          src="\images\Emerald1.jpg"
-          alt="Emerald Gemstone"
-          style="width: 128px; height: 128px"
-        />
-        <h4>Emerald</h4>
-        <h5>$5,080</h5>
-        <article>
-          Emeralds are renowned for their lush green hue, symbolizing rebirth
-          and prosperity, and are prized for their rarity and beauty, adorning
-          the jewelry of royalty and the elite throughout history. Believed to
-          promote emotional balance and creativity, emeralds hold mystical
-          properties and are a timeless symbol of elegance, making them a
-          coveted choice for special occasions and luxury jewelry pieces.
-        </article>
+    <!-- Product -->
+    <section id="product">
+      <div class="product-heading">
+        <h2>Gemstone</h2>
+        <p>All Gemstones Suit you</p>
       </div>
-      <div>
-        <img
-          src="\images\Ruby1.jpg"
-          alt="Ruby Gemstone"
-          style="width: 128px; height: 128px"
-        />
-        <h4>Ruby</h4>
-        <h5>$9,590</h5>
-        <article>
-          Rubies, with their deep red color symbolizing passion and vitality,
-          are cherished for their rarity and beauty, adorning the crowns and
-          jewelry of royalty and the elite throughout history. Believed to bring
-          prosperity and protection, rubies hold mystical properties and are a
-          timeless symbol of love and strength, making them a coveted choice for
-          special occasions and luxury jewelry pieces.
-        </article>
+
+      <div class="product-container">
+
+          <div class="product-row">
+        <dive class="product-box">
+          <a href="#" class="product-img">
+            <img src="\images\Emerald1.jpg" alt="Emerald Gemstone" />
+            <span>New</span>
+            <button class="product-cart-but">
+              <i class="fas fa-shopping-cart"></i> Add To Cart
+            </button>
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-title">Emerald</a>
+            <span>$5,080</span>
+            <p>
+              Emeralds: green gems symbolizing rebirth and prosperity, adorning
+              elite jewelry, believed to enhance balance and creativity,
+              timeless elegance for luxury occasions.
+            </p>
+          </div>
+        </dive>
+        <dive class="product-box">
+          <a href="#" class="product-img">
+            <img src="\images\Ruby2.jpg" alt="Ruby Gemstone" />
+            <span>New</span>
+            <button class="product-cart-but">
+              <i class="fas fa-shopping-cart"></i> Add To Cart
+            </button>
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-title">Ruby</a>
+            <span>$11,145</span>
+            <p>
+              Another gorgeous gemstone hailing from Mayanmar. This natural ruby has a unique oct shape that would make any piece of jewelry stand out. The stunning stone comes with its own GIA certificate to ensure its authenticity.  
+            </p>
+          </div>
+        </dive>
+        <dive class="product-box">
+          <a href="#" class="product-img">
+            <img src="\images\Benutoite.jpg" alt="Emerald Gemstone" />
+            <button class="product-cart-but">
+              <i class="fas fa-shopping-cart"></i> Add To Cart
+            </button>
+          </a>
+          <div class="product-text">
+            <a href="#" class="product-title">Natural Unheated Benitoite</a>
+            <span>$4,570</span>
+            <p>
+              Explore a 0.52ct Natural Unheated Benitoite in a round Brilliant/Step cut. GIA Authenticated with a captivating violetish blue hue and eye-clean clarity. 
+          </div>
+        </dive>
+        </div>
+        <div class="product-row">
+          <dive class="product-box">
+            <a href="#" class="product-img">
+              <img src="\images\Tanzanite.jpg" alt="Tanzanite Gemstone" />
+              <button class="product-cart-but">
+                <i class="fas fa-shopping-cart"></i> Add To Cart
+              </button>
+            </a>
+            <div class="product-text">
+              <a href="#" class="product-title">Natural Tanzanite</a>
+              <span>$1,100</span>
+              <p>
+                Fashioned as a heart, this 2.04 carat Tanzanite has the most surreal color. A radiant blue with a hint of purple, it is the color of a tanzanite that adds to the charm of the gem. Unique and layered with both color and meaning it will make a great choice for a custom ring.
+              </p>
+            </div>
+          </dive>
+          <dive class="product-box">
+            <a href="#" class="product-img">
+              <img src="\images\Euclase.jpg" alt="Natural Euclase Gemstone" />
+              <button class="product-cart-but">
+                <i class="fas fa-shopping-cart"></i> Add To Cart
+              </button>
+            </a>
+            <div class="product-text">
+              <a href="#" class="product-title">Natural Euclase</a>
+              <span>$1,705</span>
+              <p>
+                A touch of greyish green adds soft color to this 9.92 carat natural Euclase. A rare gem that who’s sparkle is will arrest your attention, this Euclase is a lovely choice for a customized piece.
+              </p>
+            </div>
+          </dive>
+          <dive class="product-box">
+            <a href="#" class="product-img">
+              <img src="\images\Kunzite.jpg" alt="Natural Kunzite Gemstone" />
+              <button class="product-cart-but">
+                <i class="fas fa-shopping-cart"></i> Add To Cart
+              </button>
+            </a>
+            <div class="product-text">
+              <a href="#" class="product-title">Natural Kunzite</a>
+              <span>$4,231</span>
+              <p>
+                A rich fuchsia pink color shines through this emerald cut natural Kunzite. Weighing 21.54 carats, here is a gemstone perfect for that oversized piece to make a big, bold statement. A pop of color, this kunzite will easily make a luminous choice.
+              </p>
+            </div>
+          </dive>
+          </div>
       </div>
     </section>
 
