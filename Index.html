@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!--NavBar-->
@@ -25,7 +26,7 @@
       <input type="checkbox" name="#" id="toggler" />
       <label for="toggler" class="fas fa-bars"></label>
 
-      <a href="#" class="logo">Gemstone Store</a>
+      <a href="#" class="logo"><img src="\images\Logo.png" alt="Logo" /></a>
 
       <nav class="navbar">
         <a href="#aboutUs">About Us</a>
@@ -36,8 +37,9 @@
 
       <div class="icons">
         <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
         <a href="#" class="fas fa-user"></a>
+        <a href="#" class="fas fa-shopping-cart"><span>0</span></a>
+        
       </div>
     </header>
 
@@ -55,7 +57,8 @@
             Explore our collection of rare gems, handpicked for their beauty and
             rarity, awaiting to adorn you with their timeless glamour.
           </p>
-          <a href="#">Get one now!</a>
+          <button href="#">Get one now!</button>
+          <!-- <a href="#">Get one now!</a> -->
         </dive>
       </div>
     </section>
@@ -236,25 +239,42 @@
 
     <section id="newsletter">
       <div class="newsletter-form">
-        <h2>Subscribe to Our Newsletter</h2>
-        <form action="#" method="post">
-          <label for="email">Email:</label><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your email.."
-            required
-          /><br />
-          <input type="submit" value="Subscribe" />
-        </form>
+        <div class="newsletter-container">
+          <div class="newsletter-box">
+            <h2>Subscribe our Newsletter</h2>
+            <p>Don't miss out! Subscribe for exclusive updates!</p>
+            <form action="#" method="post">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email.."
+                required
+              />
+              <button>Subscribe</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer>
-      <p>
-        Gemstone Store<br />
-        <a href="Noraalqassim12@gmail.com">Noraalqassim12@gmail.com</a>
+    <footer class="footer">
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="mailto:Noraalqassim12@gmail.com"><i class='fas fa-envelope'></i></a>
+      </div>
+
+      <ul class="footer-list">
+        <li><a href="#aboutUs">About Us</a> </li>
+        <li><a href="#product">Gemstones</a> </li>
+        <li><a href="#review">Customer Reviews</a></li>
+        <li><a href="#newsletter">Newsletter subscription</a></li>
+      </ul>
+      <p class="footer-copyight">
+        Nora Gemstone Store @2024
       </p>
     </footer>
   </body>
