@@ -20,5 +20,5 @@
 
 - Implement CSS animations or transitions to enhance user interactions and visual feedback.
 
-**_Diploy link: _**
+**_Deploy link: https://noraalqassim.github.io/SDA-E-commerce-Landing-Page/Index.html_**
 
