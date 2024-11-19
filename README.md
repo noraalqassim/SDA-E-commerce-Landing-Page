@@ -20,5 +20,5 @@
 
 - Implement CSS animations or transitions to enhance user interactions and visual feedback.
 
-**_DEADLINE: Thursday 10/10 at 5pm_**
-Happy coding!
+**_Diploy link: _**
+
